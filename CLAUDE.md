@@ -36,17 +36,28 @@ to `requirements.txt` as they're introduced rather than installing ad hoc.
 
 The notebook is graded against these sections (points in parentheses):
 
-1. **Data Exploration (10)** — first-rows preview, summary statistics, dtypes; identify missing values,
-   outliers, and unique values in categorical columns.
-2. **Data Cleaning (20)** — handle missing values (mean/median/mode imputation or row/column deletion), with
-   justification for the chosen method.
-3. **Handling Outliers (20)** — detect via IQR or Z-score; decide to remove/cap/transform, with justification.
+1. **Data Exploration (10)**
+   a. Explore the dataset by displaying the first few rows, summary statistics, and data types of each column.
+   b. Identify missing values, outliers, and unique values in categorical columns.
+2. **Data Cleaning (20)**
+   a. Handling Missing Values
+   b. Choose appropriate methods to handle missing values (e.g., mean/median imputation for numerical data,
+      mode imputation for categorical data, or deletion of rows/columns).
+   c. Justify your choices for handling missing data.
+3. **Handling Outliers (20)**
+   a. Detect outliers using methods such as the IQR method or Z-score.
+   b. Decide whether to remove, cap, or transform the outliers. Justify your decisions.
 4. **Data Transformation (30)**
-   - Encode categorical columns (label vs. one-hot), with justification for the choice per column.
-   - Apply feature scaling (Min-Max or Z-score standardization); explain why scaling matters and its effect on
-     downstream models.
-5. **Data Splitting (10)** — 80/20 or 70/30 train/test split; explain why splitting guards against overfitting.
-6. **Bonus (10)** — PCA for dimensionality reduction; discuss its effect on the dataset.
+   a. Encoding Categorical Data
+      i. Apply label encoding or one-hot encoding to transform categorical data into numerical form.
+      ii. Justify your choice of encoding method.
+   b. Feature Scaling
+      i. Apply feature scaling techniques such as normalization (Min-Max scaling) or standardization (Z-score
+         normalization) to the dataset.
+      ii. Explain why feature scaling is necessary and how it impacts the model.
+5. **Data Splitting (10)**
+   a. Split the preprocessed dataset into training and testing sets. Typically, an 80-20 or 70-30 split is used.
+   b. Explain the importance of splitting the data and how it prevents overfitting.
 
 Each section expects both the implementation and a written justification of the choices made (this is a
 grading criterion, not optional narration).
