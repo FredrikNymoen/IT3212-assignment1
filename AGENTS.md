@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to coding agents working with this repository.
 
 ## Project overview
 
@@ -17,9 +17,7 @@ CSV through exploration, cleaning, outlier handling, transformation, and train/t
 ## Repository structure
 
 - `notebooks/student_graduation.ipynb` — the deliverable notebook. Currently empty; this is where the full
-  pipeline should be built. (Earlier commits show the project was previously split into
-  `01_data_exploration.ipynb` ... `06_pca_bonus.ipynb`, one per task; these were consolidated into this single
-  notebook, so keep the pipeline as one linear notebook rather than reintroducing per-task files.)
+  pipeline should be built.
 - `data/` — holds `graduation_dataset.csv`. This directory is gitignored (only `.gitkeep` is tracked), so the
   dataset must be placed here manually and any cleaned/derived CSVs written here will not be committed.
 - `figures/` — intended output location for saved plots (currently only `.gitkeep`), unlike `data/` this
