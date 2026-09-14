@@ -56,6 +56,9 @@ The notebook is graded against these sections (points in parentheses):
 5. **Data Splitting (10)**
    a. Split the preprocessed dataset into training and testing sets. Typically, an 80-20 or 70-30 split is used.
    b. Explain the importance of splitting the data and how it prevents overfitting.
+6. **Bonus Task (Optional, 10)**
+   Apply dimensionality reduction techniques such as Principal Component Analysis (PCA) and discuss how it
+   affects the dataset.
 
 Each section expects both the implementation and a written justification of the choices made (this is a
 grading criterion, not optional narration).
